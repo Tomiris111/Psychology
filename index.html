@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Psychology</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=K2D&display=swap">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+</head>
+
+<body>
+<!-- start navbar -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Mind<span>Sculpt</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home" id="home1">
+                            <i class="bi bi-house-door"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="articles.html" id="articles">
+                            <i class="bi bi-book"></i> Articles</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-info-lg"></i>View More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="channel.html">Channel</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- end navbar -->
+
+<!-- start header section-->
+<section class="bg-dark text-light py-5 text-center text-sm-start" id="home">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2">
+            <div class="col py-5">
+                <h1>Discover Your Inner Self</h1>
+                <h3 class="my-4">Harmony of Mind & Soul</h3>
+                <p class="lead my-4">
+                    Unlock the mysteries within your mind and embark on a transformative journey of self-discovery.
+                    Delve into the depths of psychology with our curated content and expert insights, guiding you
+                    towards a richer understanding of your inner self.
+                </p>
+                <!-- Update your "Contact Us" button to trigger the modal -->
+                <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#contactModal">Contact
+                    Us
+                </button>
+            </div>
+            <div class="col pb-5" style="text-align: right">
+                <img src="img/bg.png" class="img-fluid" alt="background">
+            </div>
+        </div>
+    </div>
+</section>
+<!--end header section-->
+
+<!--start of carousel section-->
+<div class="container-bg text-light">
+    <div class="container">
+        <div id="why-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#why-carousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#why-carousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#why-carousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#why-carousel" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#why-carousel" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="custom-slide">
+                        <i class="bi bi-lightbulb big-icon"></i>
+                        <h3>Spark Creativity and Insight</h3>
+                        <p>
+                            Ignite your creative spark and gain insightful perspectives. Psychology opens doors to
+                            innovative thinking and a deeper understanding of yourself and the world around you.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="custom-slide">
+                        <i class="bi bi-bookmark-star big-icon"></i>
+                        <h3>Explore Personal Growth</h3>
+                        <p>
+                            Embark on a journey of self-discovery and personal growth. Psychology provides tools to
+                            navigate your unique path, fostering a deeper connection with your inner self.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="custom-slide">
+                        <i class="bi bi-broadcast-pin big-icon"></i>
+                        <h3>Navigate Emotional Intelligence</h3>
+                        <p>
+                            Cultivate emotional intelligence to navigate the intricate landscape of emotions. Learn
+                            to understand, express, and manage your feelings for a harmonious mind-soul connection.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="custom-slide">
+                        <i class="bi bi-shield-check big-icon"></i>
+                        <h3>Build Mental Resilience</h3>
+                        <p>
+                            Strengthen your mental resilience through psychological insights. Face challenges with a
+                            fortified mind, equipped to overcome obstacles and thrive in the face of adversity.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="custom-slide">
+                        <i class="bi bi-people big-icon"></i>
+                        <h3>Nurture Meaningful Connections</h3>
+                        <p>
+                            Explore the dynamics of human connections and communication. Psychology empowers you to
+                            build and nurture meaningful relationships for a fulfilling and interconnected life.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#why-carousel"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#why-carousel"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+<!--end of carousel section-->
+
+<!-- start articles section-->
+<div class="container-bg py-5">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 mt-3">
+                <div class="card border-0">
+                    <div class="card-img-top-container">
+                        <img src="img/1.jpg" class="card-img-top" alt="Article Image">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Burnout Buster</h5>
+                        <p class="card-text">Simple Strategies for a Stress-Free Life</p>
+                        <a href="articles.html#article1" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-3">
+                <div class="card border-0">
+                    <div class="card-img-top-container">
+                        <img src="img/2.jpg" class="card-img-top" alt="Article Image">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Emotion Navigator</h5>
+                        <p class="card-text">Navigating the Maze of Sorting Feelings</p>
+                        <a href="articles.html#article2" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-3">
+                <div class="card border-0">
+                    <div class="card-img-top-container">
+                        <img src="img/3.jpg" class="card-img-top" alt="Article Image">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tune into You</h5>
+                        <p class="card-text">The Art of Embracing Yourself</p>
+                        <a href="articles.html#article3" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of articles section-->
+
+<!-- start about section-->
+
+<section class="mt-5 fade-in" id="about">
+    <div class="container py-5">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-md">
+                <a href="#"><img src="img/about.jpg" class="img-fluid"></a>
+            </div>
+            <div class="col-md-5">
+                <h2>About <span>Us</span></h2>
+                <p id="aboutText">
+                    Join us on a journey where psychology meets practical insights, creating a space for self-discovery
+                    and personal growth. Let's explore the depths of the mind together. Welcome to a community that
+                    values understanding, harmony, and the pursuit of well-being.
+                </p>
+                <a href="about.html" class="btn">
+                    Read More
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of about section-->
+
+<!-- start footer section -->
+<footer id="contact" class="container-bg page-footer p-5 text-md-left">
+    <div class="container py-5" id="footer">
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 text-center">
+                <h5 class="font-weight-bold mb-4">
+                    MindSculpt
+                </h5>
+                <p class="contact">
+                    Сontact us on social networks
+                </p>
+                <a href="#"><i class="bi bi-facebook contact mx-1 lead"></i></a>
+                <a href="#"><i class="bi bi-twitter contact mx-1 lead"></i></a>
+                <a href="#"><i class="bi bi-linkedin contact mx-1 lead"></i></a>
+                <a href="#"><i class="bi bi-instagram contact mx-1 lead"></i></a>
+            </div>
+
+            <div class="col-lg-2 col-md-2 mx-auto text-center">
+                <h5 class="text-uppercase font-weight-bold mb-4">Page Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-1"><a href="index.html">Home</a></li>
+                    <li class="mb-1"><a href="about.html">About</a></li>
+                    <li class="mb-1"><a href="articles.html">Articles</a></li>
+                    <li class="mb-1"><a href="channel.html">Channel</a></li>
+                    <li class="mb-1"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-xs-12 location text-center">
+                <h5 class="text-uppercase font-weight-bold mb-4">Location</h5>
+                <p class="d-flex">
+                    <i class="bi bi-geo-alt text-primary mx-2 lead"></i>Astana, Kazakhstan
+                </p>
+                <p class="d-flex align-items-center">
+                    <i class="bi bi-phone text-primary mx-2 lead"></i>+7 775 373 23 68
+                </p>
+                <p class="d-flex align-items-center">
+                    <i class="bi bi-envelope text-primary mx-2 lead"></i>tomiris.hanshaim04@gmail.com
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--end footer section -->
+
+<!-- start footer bottom -->
+
+<footer class="p-3 bg-dark text-white text-center position-relative">
+    <div class="container">
+        <p class="mb-0">
+            Created by Tomiris Zhumakan
+        </p>
+    </div>
+</footer>
+
+<!-- end footer bottom-->
+
+<!-- Scroll To Top Button -->
+<button id="scrollToTopBtn" class="btn btn-primary" onclick="scrollToTop()">
+    <i class="bi bi-arrow-up"></i>Top
+</button>
+
+
+<!-- Contact Us Modal -->
+<div class="modal fade pt-5" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form onsubmit="submitForm(event)">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Mansur Zhumakan" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="mansur@example.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your message"
+                                  required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of Contact Us Modal-->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>

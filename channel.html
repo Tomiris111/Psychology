@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <title>Channel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=K2D&display=swap">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+</head>
+<body>
+<!-- start navbar -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Mind<span>Sculpt</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html" id="home1">
+                            <i class="bi bi-house-door"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="articles.html" id="articles">
+                            <i class="bi bi-book"></i> Articles</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown2" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-info-lg"></i>View More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="channel.html">Channel</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- end navbar -->
+
+
+<!-- start Video Section -->
+
+<!-- Videos Section -->
+<section class="p-5" id="videos">
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Our Video<span> Lectures</span></h2>
+
+        <div class="row">
+
+            <!-- Video 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card border-primary">
+                    <div class="embed-responsive embed-responsive-16by9 text-center pt-4">
+                        <iframe id="video1" class="embed-responsive-item" src="https://www.youtube.com/embed/QjLOWQqy2MU?enablejsapi=1" allowfullscreen allow="web-share;autoplay"></iframe>
+                    </div>
+                    <p class="text-center mt-3">
+                        <button onclick="playVideo('video1')" class="btn btn-primary btn-animated">Watch</button>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card border-primary">
+                    <div class="embed-responsive embed-responsive-16by9 text-center pt-4">
+                        <iframe id="video2" class="embed-responsive-item" src="https://www.youtube.com/embed/y1XAe1CcFtc?enablejsapi=1" allowfullscreen allow="web-share;autoplay"></iframe>
+                    </div>
+                    <p class="text-center mt-3">
+                        <button onclick="playVideo('video2')" class="btn btn-primary btn-animated">Watch</button>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Video 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card border-primary">
+                    <div class="embed-responsive embed-responsive-16by9 text-center pt-4">
+                        <iframe id="video3" class="embed-responsive-item" src="https://www.youtube.com/embed/DCHbhDxBLko?enablejsapi=1" allowfullscreen allow="web-share;autoplay"></iframe>
+                    </div>
+                    <p class="text-center mt-3">
+                        <button onclick="playVideo('video3')" class="btn btn-primary btn-animated">Watch</button>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Video Section -->
+
+
+
+<!-- start footer section -->
+<footer id="contact" class="container-bg page-footer p-5 text-md-left">
+    <div class="container py-5" id="footer">
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 text-center">
+                <h5 class="font-weight-bold mb-4">
+                    MindSculpt
+                </h5>
+                <p class="contact">
+                    Сontact us on social networks
+                </p>
+                <a href="#"><i class="bi bi-facebook contact mx-1 lead"></i></a>
+                <a href="#"><i class="bi bi-twitter contact mx-1 lead"></i></a>
+                <a href="#"><i class="bi bi-linkedin contact mx-1 lead"></i></a>
+                <a href="#"><i class="bi bi-instagram contact mx-1 lead"></i></a>
+            </div>
+
+            <div class="col-lg-2 col-md-2 mx-auto text-center">
+                <h5 class="text-uppercase font-weight-bold mb-4">Page Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-1"><a href="index.html">Home</a></li>
+                    <li class="mb-1"><a href="about.html">About</a></li>
+                    <li class="mb-1"><a href="articles.html">Articles</a></li>
+                    <li class="mb-1"><a href="channel.html">Channel</a></li>
+                    <li class="mb-1"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-xs-12 location text-center">
+                <h5 class="text-uppercase font-weight-bold mb-4">Location</h5>
+                <p class="d-flex">
+                    <i class="bi bi-geo-alt text-primary mx-2 lead"></i>Astana, Kazakhstan
+                </p>
+                <p class="d-flex align-items-center">
+                    <i class="bi bi-phone text-primary mx-2 lead"></i>+7 775 373 23 68
+                </p>
+                <p class="d-flex align-items-center">
+                    <i class="bi bi-envelope text-primary mx-2 lead"></i>tomiris.hanshaim04@gmail.com
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--end footer section -->
+
+<!-- start footer bottom -->
+
+<footer class="p-3 bg-dark text-white text-center position-relative">
+    <div class="container">
+        <p class="mb-0">
+            Created by Tomiris Zhumakan
+        </p>
+    </div>
+</footer>
+
+<!-- end footer bottom-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="script.js"></script>
+</body>
+</html>
